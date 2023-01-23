@@ -12,7 +12,7 @@ li {
     font-size: 1.5em;
     text-decoration: none;
     border: 3px solid black;
-    padding:20px;
+    padding:10px;
     color:black;
     border-radius: 10%;
 }
@@ -22,6 +22,9 @@ li a{
 }
 li:hover{
     background-color: darkgreen;
+}
+li:active{
+    background-color: rgb(0, 73, 0);
 }
 /*the logo*/
 .logo{
