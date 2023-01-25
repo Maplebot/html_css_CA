@@ -29,12 +29,12 @@ li:active{
 /*the logo*/
 .logo{
     width:200px;
-    margin-left: 20px;
     grid-area: logo;
 }
 /*the css grid*/
-main{
+header{
     display:grid;
+    width:100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 100px;
     grid-template-areas: "logo navigation navigation"
@@ -44,7 +44,7 @@ main{
 ul{
     display:flex;
     grid-area: navigation;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 20px;
 }
 
@@ -52,6 +52,7 @@ ul{
 .h1_nav{
     color:white;
     grid-area: banner;
+    width:100%;
     display:flex;
     background-color: darkgreen;
     justify-content: center;
@@ -64,9 +65,9 @@ jackets page
 
 /*the jacket grid*/
 .background-img{
-    height:100vh;
-    padding-left: 5%; 
+    height:100vh; 
     display:grid;
+    width:100%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr; 
     grid-template-areas: "jacket1 jacket2 jacket3 jacket4"
@@ -74,9 +75,10 @@ jackets page
 }
 figcaption{
     margin-bottom: 60px;
-    position:relative;
-    left:120px;
     font-size: large;
+}
+figure{
+    width:400px;
 }
 .jacket1{
     width:300px;
@@ -404,8 +406,9 @@ buy sucess page
                             "buy_success_paragraph";
     
     }
-    main{
+    header{
         display:grid;
+        width:100%;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 100px;
         grid-template-areas: "logo"
@@ -416,13 +419,10 @@ buy sucess page
         display:flex;
         grid-area: navigation;
         justify-content: space-around;
-        position:relative;
-        margin-top: 20px;
         text-decoration: none;
     }
     .logo{
-        width:500px;
-        margin-left: 20px;
+        width:100%;
         grid-area: logo;
     }
     .paragraph{
