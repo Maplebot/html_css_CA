@@ -453,3 +453,16 @@ buy sucess page
     }
     
 }
+@media(max-width:968px) and (min-width:769px){
+    section{
+        display:grid;
+        height:900px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "jacket1_section"
+                                "size_item"
+                                "h1_section"
+                                "paragraph_section"
+                                "button_section";
+    }
+}
