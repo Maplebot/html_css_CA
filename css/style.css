@@ -293,6 +293,26 @@ buy sucess page
 
 
 @media (max-width:768px){
+    .troll{
+        order: 1;
+        align-self: center;
+        overflow-wrap: break-word;
+        inline-size: 300px;
+        font-size: 20px;
+        position:relative;
+        left:150px;
+    }
+    .collection{
+        font-size: 22px;
+        text-decoration: none;
+        color:white;
+        margin:40px;
+        display: block;
+        border:2px solid white;
+        padding:10px;
+        align-self: flex-end;
+        order: 2;
+    }
     .background-img{
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr;
@@ -454,6 +474,7 @@ buy sucess page
     
 }
 @media(max-width:968px) and (min-width:769px){
+    
     section{
         display:grid;
         height:900px;
