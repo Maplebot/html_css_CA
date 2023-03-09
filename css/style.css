@@ -78,7 +78,7 @@ figcaption{
     font-size: large;
 }
 figure{
-    width:400px;
+    width:357px;
 }
 .jacket1{
     width:300px;
@@ -246,13 +246,14 @@ buy sucess page
     text-align: center;
 }
 .map_image{
-    width:400px;
+    width:357px;
     height:400px;
     border-radius: 50%;
     margin:auto;
     display:block;
 
 }
+
 
 /* index2 */
 .probably{
@@ -444,10 +445,7 @@ buy sucess page
                                 "banner";
     }
     ul{
-        display:flex;
         grid-area: navigation;
-        justify-content: space-around;
-        text-decoration: none;
     }
     .logo{
         width:100%;
