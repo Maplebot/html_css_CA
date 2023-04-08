@@ -58,6 +58,16 @@ ul{
     justify-content: center;
     align-items: center;
 }
+h2{
+    color:white;
+    grid-area: banner;
+    width:100%;
+    display:flex;
+    background-color: darkgreen;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 /*
 jackets page
