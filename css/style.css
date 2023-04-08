@@ -49,14 +49,8 @@ ul{
 }
 
 /*The banner heading*/
-.h1_nav{
-    color:white;
-    grid-area: banner;
-    width:100%;
-    display:flex;
-    background-color: darkgreen;
-    justify-content: center;
-    align-items: center;
+h1{
+    text-align: center;
 }
 h2{
     color:white;
