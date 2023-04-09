@@ -131,8 +131,8 @@ section{
 }
 
 .jacket1_section{
-    width:400px;
-    height:450px;
+    width:300px;
+    height:400px;
     grid-area: jacket1_section;
     position:relative;
     left:100px;
@@ -152,6 +152,7 @@ section{
     background-color: orange;
     color:white;
     width:300px;
+    left:50px;
     height:100px;
     border-radius: 10%;
     grid-area: button_section;
@@ -177,8 +178,8 @@ section{
 /* buy section*/
 
 .jacket_buy{
-    width:500px;
-    height:600px;
+    width:300px;
+    height:450px;
     grid-area: jacket_buy;
 }
 
@@ -377,7 +378,6 @@ buy sucess page
         color:white;
         position:relative;
         bottom:500px;
-        left:100px;
         width:300px;
         height:100px;
         border-radius: 10%;
@@ -410,8 +410,8 @@ buy sucess page
         border:0px;
         font-size: 32px;
         width:300px;
+        left:50px;
         position:relative;
-        left: 100px;
         height:100px;
         border-radius: 10%;
         justify-content: center;
