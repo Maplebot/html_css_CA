@@ -147,12 +147,16 @@ section{
     font-size: 42px;
     grid-area: h1_section;
 }
+.button_anchor{
+    text-decoration: none;
+}
 .button_section{
     font-size: 32px;
     background-color: orange;
     color:white;
     width:300px;
-    left:50px;
+    text-decoration: none;
+    margin:auto;
     height:100px;
     border-radius: 10%;
     grid-area: button_section;
@@ -168,7 +172,7 @@ section{
     margin-top: 20px;
     font-size: 32px;
     background-color: darkgreen;
-    width:10%;
+    width:10%;  
     padding:15px;
     height:30%;
     text-align: center;
@@ -201,6 +205,9 @@ section{
     border-radius: 10%;
     justify-content: center;
     align-items: center;
+}
+.buy_button_anchor{
+    text-decoration: none;
 }
 
 .buy_box{
@@ -261,7 +268,7 @@ buy sucess page
 
 
 /* index2 */
-.probably{
+.div_container{
     background: linear-gradient(rgba(0, 0, 0,0.1), rgba(0,0,0,0.7)), url(../images/hiking_front.jpg);
     height:90vh;
     background-size: cover;
@@ -287,7 +294,7 @@ buy sucess page
 .collection:hover{
     background-color:darkgreen;
 }
-.troll{
+.div_paragraph{
     order: 1;
     align-self: center;
     overflow-wrap: break-word;
@@ -299,15 +306,6 @@ buy sucess page
 
 
 @media (max-width:768px){
-    .troll{
-        order: 1;
-        align-self: center;
-        overflow-wrap: break-word;
-        inline-size: 300px;
-        font-size: 20px;
-        position:relative;
-        left:150px;
-    }
     .collection{
         font-size: 22px;
         text-decoration: none;
@@ -378,8 +376,6 @@ buy sucess page
         color:white;
         position:relative;
         bottom:500px;
-        width:300px;
-        height:100px;
         border-radius: 10%;
         grid-area: button_section;
         border:0px;
